@@ -110,6 +110,52 @@ a.dropdown-toggle {
 
 }
 
+a.btn-edit {
+    color: #fff;
+    background-color: #515da1;
+    text-transform: capitalize;
+    margin-right: 20px;
+}
+
+a.btn-edit:hover,
+a.btn-delete:hover {
+    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.3);
+
+}
+
+a.btn-delete {
+    background-color: #db7171;
+    text-transform: capitalize;
+    color: #fff;
+
+}
+
+.btn-create,
+.btn-cancel,
+.btn-delete,
+.btn-edit {
+    padding: 8px 26px;
+    font-size: 12px;
+
+}
+
+.btn-cancel {
+    background-color: #db7171;
+    text-transform: capitalize;
+    margin-right: 20px;
+}
+
+.btn-create {
+    background-color: #515da1;
+    text-transform: capitalize;
+}
+
+.btn-cancel:hover,
+.btn-create:hover {
+    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.3);
+
+}
+
 /* ............................ 
         FOOTER
 ...............................*/
@@ -144,6 +190,9 @@ footer p {
     width: 50px;
 }
 
+/* ............................ 
+        DASHBOARD
+...............................*/
 h4.dashboard-title {
     font-size: 12px;
     text-align: center;
@@ -193,26 +242,21 @@ h4.dashboard-title {
     cursor: pointer;
 }
 
-a.btn-edit {
-    color: #fff;
-    background-color: #515da1;
-    font-size: 12px;
-    text-transform: capitalize;
-    margin-right: 20px;
-    padding: 12px 20px;
+
+/* ............................ 
+        TODOS
+...............................*/
+#add-todo {
+    margin: 100px auto 0 auto;
+    width: 500px;
 }
 
-a.btn-edit:hover,
-a.btn-delete:hover {
-    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.3);
+#todo .img-content-wrapper {
+    margin: 0 auto 0 auto;
 
 }
 
-a.btn-delete {
-    background-color: #db7171;
-    text-transform: capitalize;
+#action-buttons a {
+    text-decoration: none;
     color: #fff;
-    font-size: 12px;
-    padding: 12px;
-
 }
