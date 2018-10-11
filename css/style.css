@@ -32,6 +32,18 @@ a.navbar-brand {
     letter-spacing: 2px;
 }
 
+a.dropdown-toggle {
+    color: #fff;
+}
+
+.dropdown-menu a {
+    font-size: 12px;
+}
+
+.dropdown-menu a:hover {
+    color: #515da1;
+}
+
 /* ............................ 
         REGISTER SECTION
 ...............................*/
