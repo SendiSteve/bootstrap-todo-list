@@ -129,3 +129,25 @@ footer p {
     text-align: center;
     padding: 16px 0;
 }
+
+.img-content-wrapper{
+    background: #acb8ff;
+    border-radius: 180px;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    display: block;
+}
+.img-content-wrapper img{
+    width: 50px;
+}
+h4.dashboard-title{
+    font-size: 12px;
+    text-align: center;
+    font-weight: 700;
+    padding: 20px 0;
+}
+.img-content-wrapper {
+    margin: 0 -200px 0 auto;
+}
