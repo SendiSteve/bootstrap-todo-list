@@ -165,7 +165,7 @@ h4.dashboard-title {
     margin: 0 -200px 0 auto;
 }
 
-#todo-wrapper ul {
+/* #todo-wrapper ul {
     list-style: none;
 }
 
@@ -175,16 +175,50 @@ h4.dashboard-title {
     padding: 20px 20px 20px 0;
     width: 700px;
     cursor: pointer;
-}
+} */
 
-#todo-wrapper ul li:hover {
-    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.27);
-}
 
-#todo-wrapper ul li a {
-    padding: 0 30px;
+.task-link {
+    background-color: #e6e8eb;
+    padding: 15px 10px 15px 0;
+    display: inline-block;
+    margin-right: 20px;
     color: #2b2b2b;
     text-decoration: none;
     font-weight: 600;
+    width: 700px;
+    margin-top: 20px;
+}
+
+.task-link a {
+    padding-left: 30px;
+}
+
+.task-link:hover {
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.27);
+    cursor: pointer;
+}
+
+a.btn-edit {
+    color: #fff;
+    background-color: #515da1;
+    font-size: 12px;
+    text-transform: capitalize;
+    margin-right: 20px;
+    padding: 12px 20px;
+}
+
+a.btn-edit:hover,
+a.btn-delete:hover {
+    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.3);
+
+}
+
+a.btn-delete {
+    background-color: #db7171;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 12px;
+    padding: 12px;
 
 }
