@@ -165,19 +165,6 @@ h4.dashboard-title {
     margin: 0 -200px 0 auto;
 }
 
-/* #todo-wrapper ul {
-    list-style: none;
-}
-
-#todo-wrapper ul li {
-    margin-top: 20px;
-    background-color: #f8f9fa;
-    padding: 20px 20px 20px 0;
-    width: 700px;
-    cursor: pointer;
-} */
-
-
 .task-link {
     background-color: #e6e8eb;
     padding: 15px 10px 15px 0;
@@ -192,6 +179,13 @@ h4.dashboard-title {
 
 .task-link a {
     padding-left: 30px;
+    text-decoration: none;
+    color: #2c2c2c;
+}
+
+.task-link a:hover {
+    color: #515da1;
+
 }
 
 .task-link:hover {
