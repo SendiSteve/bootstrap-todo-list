@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <!-- animation -->
+    <link rel="stylesheet" href="css/animate/animate.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Todolist</title>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a href="#" class="navbar-brand">Todo List</a>
+            <div class="collapse navbar-collapse" id="todolist-menu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="#">Todos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="profileDropdown" role="button" data-toggle="dropdown">
+                            Stephen
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="profileDropdown">
+                            <a class="dropdown-item" href="#">Logout</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Profile</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Dashboard -->
+    <div id="dashboard" class="py-5">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-md-2">
+                    <div class="img-content-wrapper">
+                        <img src="img/img-holder.png" class="img-fluid rounded" alt="">
+                        <h4 class="dashboard-title"><a href="#">AddTasks</a> </h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- todo list -->
+            <div id="todo-wrapper">
+                <div class="task">
+                    <div class="task-link">
+                        <a href="">Create A Web Design</a>
+                    </div>
+                    <a href="#" class="btn btn-lg btn-edit btn-general" role="button">Edit</a>
+                    <a href="#" class="btn btn-lg btn-delete btn-general" role="button">Delete</a>
+                </div>
+                <div class="task">
+                    <div class="task-link">
+                        <a href="">Create A Web Design</a>
+                    </div>
+                    <a href="#" class="btn btn-lg btn-edit btn-general" role="button">Edit</a>
+                    <a href="#" class="btn btn-lg btn-delete btn-general" role="button">Delete</a>
+                </div>
+                <div class="task">
+                    <div class="task-link">
+                        <a href="">Create A Web Design</a>
+                    </div>
+                    <a href="#" class="btn btn-lg btn-edit btn-general" role="button">Edit</a>
+                    <a href="#" class="btn btn-lg btn-delete btn-general" role="button">Delete</a>
+                </div>
+                <div class="task">
+                    <div class="task-link">
+                        <a href="">Create A Web Design</a>
+                    </div>
+                    <a href="#" class="btn btn-lg btn-edit btn-general" role="button">Edit</a>
+                    <a href="#" class="btn btn-lg btn-delete btn-general" role="button">Delete</a>
+                </div>
+                <div class="task">
+                    <div class="task-link">
+                        <a href="">Create A Web Design</a>
+                    </div>
+                    <a href="#" class="btn btn-lg btn-edit btn-general" role="button">Edit</a>
+                    <a href="#" class="btn btn-lg btn-delete btn-general" role="button">Delete</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="my-3">
+        <div class="footer-bottom">
+            <div class="container">
+                <h4 class="footer-text text-white">Todo List</h4>
+                <p class="text-white">Copyright &copy;2018. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- jquery -->
+    <script src="js/jQuery/jquery-3.3.1.slim.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- popper -->
+    <script src="js/popper/popper.min.js"></script>
+    <!-- wow -->
+    <script src="js/wow/wow.min.js"></script>
+    <!-- custom js -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
